@@ -27,13 +27,17 @@ public class userLogin extends amazonBase{
 
 	@When("i enter the {string} in the email input bar")
 	public void i_enter_the_in_the_email_input_bar(String string) {
-	    
+		
+		ap = new amazonHomePage(driver);
+		
+		// dwudfgwdfuyeuyf
 		
 	}
 
 	@When("i click on the continue button")
 	public void i_click_on_the_continue_button() {
-	    
+		ap = new amazonHomePage(driver);
+		
 		
 	}
 
